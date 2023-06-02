@@ -1,15 +1,15 @@
 import streamlit as st
 
-st.title("Calculator App using Streamlit")
+st.title("Amy Calculator ")
 
 # creates a horizontal line
 st.write("---")
 
 # input 1
-num1 = st.number_input(label="Enter first number")
+num1 = st.number_input(label="First number")
 
 # input 2
-num2 = st.number_input(label="Enter second number")
+num2 = st.number_input(label="Second number")
 
 st.write("Operation")
 
