@@ -7,9 +7,7 @@ background-size:cover;
 background-repeat: no repeat;
 }}
 [data-testid="stHeader"]{{
-background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
-background-size:cover;
-background-repeat: no repeat;
+
 }}
 </style>
 """
