@@ -28,7 +28,7 @@ num2 = st.number_input(label="Second number")
 st.write("Operation")
 
 operation = st.radio("Select an operation to perform:",
-                    ("Add", "Subtract", "Multiply", "Divide"))
+                    ("Add", "Subtract", "Multiply", "Divide", "Modulus"))
 
 ans = 0
 
@@ -41,6 +41,8 @@ def calculate():
         ans = num1 * num2
     elif operation=="Divide" and num2!=0:
         ans = num1 / num2
+    elif operation=="Modulus":
+       ans = num1 % num2
     else:
         st.warning("Division by 0 error. Please enter a non-zero number.")
         ans = "Not defined"
