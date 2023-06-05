@@ -1,5 +1,15 @@
 import streamlit as st
+page_image_bg = f"""
+<style>
+[data-testid="stAppViewContainer"]{{
+background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+background-size:cover;
+background-repeat: no repeat;
+}}
 
+</style>
+"""
+st.markdown(page_image_bg, unsafe_allow_html = True)
 st.title("Amy Calculator ")
 
 # creates a horizontal line
